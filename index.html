@@ -8,79 +8,208 @@
   <!-- bootstrap css link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <!-- venila css link -->
+  <!-- custom css link -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <section>
-    <header>
-      <!-- navigation section start -->
-      <section>
-        <nav class="navbar navbar-expand-lg bg-light fw-bold">
-          <div class="container">
-            <a class="navbar-brand fs-2" href="#">Learn Now</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse mx-5" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Courses</a>
-                <a class="nav-link" href="#">Deals</a>
-                <a class="nav-link" href="#">Success</a>
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Register</a>
+  <header>
+    <!-- navigation section start -->
+    <section>
+      <nav class="navbar navbar-expand-lg bg-light fw-bold">
+        <div class="container">
+          <a class="navbar-brand fs-2" href="#">Learn Now</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mx-5" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="#">Deals</a>
+              <a class="nav-link" href="#">Success</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Register</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- navigation section end -->
+    <!-- banner section start -->
+    <section class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/cover/cover-1.png" class="d-block w-100 banner-img" alt="..." style="height:600px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>
+                <span>Get Started Digital</span>
+                <br>
+                <span>Learning</span>
+              </h1>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-primary fw-bold fs-5">Get Started</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/cover/cover-2.jpg" class="d-block w-100 banner-img banner-image" alt="..."
+              style="height:600px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>
+                <span>Get Started Digital</span>
+                <br>
+                <span>Learning</span>
+              </h1>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-primary fw-bold fs-5">Get Started</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/cover/cover-3.jpg" class="d-block w-100 banner-img" alt="..." style="height:600px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>
+                <span>Get Started Digital</span>
+                <br>
+                <span>Learning</span>
+              </h1>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-primary fw-bold fs-5">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- banner section end -->
+  </header>
+  <main>
+    <!-- course section start -->
+    <section class="container">
+      <div class="d-flex justify-content-center">
+        <div class="text-center my-5">
+          <h1>Discover Our Popular Courses</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout.</p>
+        </div>
+      </div>
+      <!-- cards start -->
+      <div>
+        <div class="row g-1">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img class="w-100" src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">UI / UX Design</h5>
+                  <p class="card-text">UX and UI are two interdependent terms. While UI generally deals
+                    with the interaction between users and computer systems.</p>
+                  <h5 class="card-text text-primary">Price: 20$</h5>
+                </div>
               </div>
             </div>
           </div>
-        </nav>
-      </section>
-      <!-- navigation section end -->
-      <!-- banner section start -->
-      <section>
-        <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
-          <div class="carousel-inner banner">
-            <div class="carousel-item active">
-              <div class="img-1 d-block w-100" alt="..."></div>
-              <!-- <img src="images/cover/cover-1.png" class="d-block w-100" alt="..." style="height:600px;"> -->
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img class="w-100" src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">JS Basic To Advance</h5>
+                  <p class="card-text">JavaScript is a text-based programming language used both on the
+                    client-side and server-side</p>
+                  <h5 class="card-text text-primary">Price: 25$</h5>
+                </div>
               </div>
             </div>
-            <div class="carousel-item banner">
-              <div class="img-2 d-block w-100" alt="..."></div>
-              <!-- <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="..." style="height:600px;"> -->
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item banner">
-              <div class="img-3 d-block w-100 img-fluid" alt="..."></div>
-              <!-- <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="..." style="height:600px;"> -->
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-      </section>
-      <!-- banner section end -->
-    </header>
-  </section>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img class="w-100" src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Mongo DB</h5>
+                  <p class="card-text">MongoDB is an open source NoSQL database management program. NoSQL
+                    is used as an alternative to traditional relational databases.</p>
+                  <h5 class="card-text text-primary">Price: 30$</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img class="w-100" src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Express. js</h5>
+                  <p class="card-text">Express is a node js web application framework that provides broad
+                    features for building web and mobile applications.</p>
+                  <h5 class="card-text text-primary">Price: 20$</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img class="w-100" src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">React. Js</h5>
+                  <p class="card-text">React. js is an open-source JavaScript library that is used for
+                    building user interfaces specifically for single-page applications.</p>
+                  <h5 class="card-text text-primary">Price: 50$</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img class="w-100" src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Node. js</h5>
+                  <p class="card-text">Node. js is a platform built on Chrome's JavaScript runtime for
+                    easily building fast and scalable network applications.</p>
+                  <h5 class="card-text text-primary">Price: 35$</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cards end  -->
+      <div class="d-flex justify-content-center my-3">
+        <button class="btn btn-primary fw-bold fs-5">See More Courses</button>
+      </div>
+    </section>
+    <!-- course section end -->
+    <!-- Registration section start -->
+    <section>
+
+    </section>
+    <!-- Registration section end -->
+  </main>
   <!-- js css link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
