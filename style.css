@@ -1,0 +1,16 @@
+.banner .img-1{
+    background-image: linear-gradient(rgb(0,0,0,0.505),rgb(0,0,0,0.505)),url(images/cover/cover-1.png);
+    height:600px;
+    background-size: cover;
+}
+.banner .img-2{
+    background-image: linear-gradient(rgb(0,0,0,0.505),rgb(0,0,0,0.505)),url(images/cover/cover-2.jpg);
+    height:600px;
+    background-size: cover;
+}
+.banner .img-3{
+    background-image: linear-gradient(rgb(0,0,0,0.505),rgb(0,0,0,0.505)),url(images/cover/cover-3.jpg);
+    height:600px;
+    background-position: center;
+    background-size: cover;
+}
