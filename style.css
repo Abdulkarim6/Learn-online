@@ -8,7 +8,7 @@ main{
     bottom: 130px;
 }
 @media only screen and (max-width: 576px) {
-    .register-text{
-        text-align: center;
+    .img-height{
+        height:480px;
     }
 }
